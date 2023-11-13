@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2 using table not recomended to use</title>
+
+    <!-- <style> 
+        table,th{
+            border: 1px solid black;
+            margin: auto;
+            border-collapse: collapse;
+            padding: 1%;
+        }
+    </style> -->
+    
+</head>
+<body>
+    <form action="#">
+        <table border="1">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="s_name">Student name</label></td>
+                <td><input type="text" id="s_name" name="name" value=""/></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="f_name">Father's name</label></td>
+                <td><input type="text" id="f_name" name="name" value=""/></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="m_name">Mother's name</label></td>
+                <td><input type="text" id="m_name" name="name" value=""/></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="email">Email ID</label></td>
+                <td><input type="email" id="email" name="email" value=""/></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="db">Date of Birth</label></td>
+                <td><input type="date" id="db" name="db" value=""/></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="male"/>Male<br>
+                    <input type="radio" id="gender" name="gender" value="female"/>Female<br>
+                    <input type="radio" id="gender" name="gender" value="others"/>Others<br> 
+                </td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="m_num">Mobile No</label></td>
+                <td><input type="tel" id="m_num" name="telephone" value="" /></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="db">Enter adress</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td class="tdLabel"><label for="state">State</label></td>
+                <td><select id="state">
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Tamil nadu">Tamil nadu</option>
+                    <option value="Andra prdesh">Andra prdesh</option>
+                    <option value="kerala">kerala</option>
+                    <option value="Maharastra">Maharastra</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
